@@ -1,4 +1,7 @@
 <h1> <%= @list.name %> </h1>
-<p>To do: List bookmarks here</p>
+<p>--- Bookmarks listed here ---</p>
+<% if @list.photo == true %>
+<%= cl_image_tag @list.photo.key, height: 300, width: 400, crop: :fill %>
+<% end %>
 
 <%= link_to 'Back', lists_path %>
