@@ -1,26 +1,7 @@
-# README
+# Movie Watch List
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## About 
+Web app for creating lists of your favorite movies, and rating others’ lists 🎞️🍿
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# rails-watch-list
-# rails-watch-list
+## Languages Used
+Ruby on Rails, CSS, JavaScript, HTML
