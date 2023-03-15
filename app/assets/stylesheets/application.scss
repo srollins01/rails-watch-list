@@ -10,3 +10,39 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+@import "tom-select/dist/css/tom-select.min.css";
+@import "star-rating.js/dist/star-rating.css";
+
+.list-img {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.3)), image-url("list_background.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.list-txt {
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 4px;
+}
+
+.cover {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), image-url("movie-bg.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body {
+  background: rgb(61, 61, 61);
+  color: white;
+}
+
+.gray-bg {
+  background: linear-gradient(to bottom, rgb(79, 79, 79), rgb(34, 34, 34));
+}
+
+.img-sizing {
+  width: 100%;
+  height: auto;
+}
